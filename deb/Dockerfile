@@ -17,7 +17,7 @@ ADD scripts/ /scripts/
 RUN chmod 755 /scripts/*.sh
 
 # Exposing HHVM-FastCGI port
-EXPOSE 9000
+EXPOSE 9125
 
 # Default command
 CMD ["/scripts/start.sh"]
